@@ -1,0 +1,8 @@
+.top-Links-Nav {
+  height: 100%;
+  min-width: 60px;
+}
+
+.top-Links-Nav:hover {
+  background-color: rgba(245, 245, 245, 0.8);
+}
