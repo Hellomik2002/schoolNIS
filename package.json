@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "babel-plugin-root-import": "^6.4.1"
   }
 }

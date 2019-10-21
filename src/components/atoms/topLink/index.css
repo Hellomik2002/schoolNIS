@@ -1,8 +1,20 @@
-.top-Links-Nav {
-  height: 100%;
+.top_links_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 10px);
   min-width: 60px;
+  color: green;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  font-size: 16px;
+  padding: 0px 6px;
+  margin-top: 10px;
 }
 
-.top-Links-Nav:hover {
-  background-color: rgba(245, 245, 245, 0.8);
+.top_links_nav:hover {
+  background-color: rgba(235, 235, 235, 0.9);
+  cursor: pointer;
 }
+

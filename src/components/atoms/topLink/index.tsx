@@ -7,6 +7,6 @@ export interface TopLinkProps {
 
 const TopLink: React.FC<TopLinkProps> = (props: TopLinkProps) => (
   //
-  <div>{props.title}</div>
+  <div className="top_links_nav">{props.title}</div>
 );
 export default TopLink;

@@ -3,6 +3,10 @@
   height: 142px;
   width: 100%;
   background-color: white;
+  z-index: 3;
+}
+.HEADERHEIGHT {
+  height: 142px;
 }
 .top_navigation {
   height: 42px;
@@ -22,6 +26,10 @@
 }
 .top_icons {
   margin-right: 12px;
+}
+.iconLink:hover {
+  text-decoration: none;
+  color: white;
 }
 .main_navigation {
   align-items: center;
@@ -43,7 +51,10 @@
   margin: 0 auto;
 }
 .top_Image {
-  margin: 8px 0px;
+  /* margin: 8px 0px; */
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* margin-right: 10px; */
   /* margin-top: 50px; */
   border: 1px solid #ccc !important;
   border-radius: 16px;
@@ -52,4 +63,6 @@
 }
 .top_links_row {
   display: flex;
+  height: 100%;
+  align-items: center;
 }
